@@ -1,8 +1,14 @@
 aid: grubmarket
 name: Grubmarket
-description: Grubmarket is a company surfaced as a portfolio company of battery-ventures, ggv-capital,
-  y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead
-  awaiting the enrichment pipeline.
+description: GrubMarket is a food technology company founded in 2014 that digitally
+  transforms the American food supply chain across the U.S. and Canada. It operates
+  a B2B wholesale eCommerce marketplace connecting buyers to thousands of food products,
+  an AI-powered ERP and warehouse-management software suite (WholesaleWare) for food
+  distributors and growers, and a direct-to-consumer farm-fresh food delivery service.
+  Backed by Battery Ventures, GGV Capital, and Y Combinator, GrubMarket was surfaced
+  as a portfolio company and added to the API Evangelist network. As of this enrichment
+  pass GrubMarket publishes no public developer API, API documentation, or developer
+  portal; this profile captures its public web and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/grubmarket/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +18,32 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.grubmarket.com/favicon.ico
 tags:
 - Company
+- Food Technology
+- Supply Chain
+- eCommerce
+- Wholesale
+- ERP
+- Grocery
+- Agriculture
+- Logistics
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +51,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/grubmarket-domain-security.yml
 - type: Website
   url: https://www.grubmarket.com/
+- type: Blog
+  url: http://blog.grubmarket.com/
+- type: TermsOfService
+  url: https://www.grubmarket.com/terms
+- type: PrivacyPolicy
+  url: https://www.grubmarket.com/privacy
+- type: Software
+  url: https://www.grubmarket.com/hello/software/index.html
+- type: EnterpriseAI
+  url: https://www.grubmarket.ai
+- type: Wholesale
+  url: https://business.grubmarket.com/
+- type: Sustainability
+  url: https://sustainability.grubmarket.com/
+- type: Careers
+  url: https://www.grubmarket.com/jobs
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
